@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    margin: 10px auto;
+    width: 90%;
+    font-family: tahoma;
+}
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.intro img {
+    margin-bottom: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 40px;
+}
+.intro p {
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(68, 68, 75);
+}
+
+p {
+    font-size: 13px;
+    font-style: italic;
+    color: rgb(110, 110, 110);
+}
+.rules h3, h4{
+    text-align: center;
+    color: #347383;
+}
+h4 {
+    margin: 5px 0;
+}
+table {
+    color: rgb(83, 83, 83);
+    margin-bottom: 30px;
+    border-spacing: 10px 20px;
+    text-align: center;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+table th {
+    border: 1px solid black;
+    padding: 3px 6px;
+}
